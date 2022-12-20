@@ -62,7 +62,7 @@ const NavBar = observer(() => {
                                     }
                                 </div>
                                 <Dropdown>
-                                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                                    <Dropdown.Toggle className='exRate' id="dropdown-basic">
                                         {devices.currency}
                                     </Dropdown.Toggle>
                                     <Dropdown.Menu>

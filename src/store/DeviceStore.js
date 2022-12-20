@@ -10,7 +10,7 @@ export default class DeviceStore {
             price: 100,
             category: 1,
             description: "ОЧень хороший",
-            image: "https://s0.rbk.ru/v6_top_pics/media/img/7/39/756366331891397.jpg",
+            image: "https://otvet.imgsmail.ru/download/u_38be65231f5362e9ffd5b67f0288ccda_800.jpg",
             rub: 141414,
             quotation: 64
         }] //Измени
@@ -21,7 +21,7 @@ export default class DeviceStore {
             price: 100,
             category: 1,
             description: "ОЧень хороший",
-            image: "https://s0.rbk.ru/v6_top_pics/media/img/7/39/756366331891397.jpg",
+            image: "https://i.ytimg.com/vi/SzLAPmRFREA/maxresdefault.jpg",
             rub: 141414,
             quotation: 64
         }] //Измени

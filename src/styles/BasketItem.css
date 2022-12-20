@@ -1,22 +1,30 @@
 .item{
     display: flex;
-    height: 180px;
+    justify-content: space-between;
     background-color: white;
     border-radius: 0.375rem;
     border: 1px solid lightgray;
     box-shadow: 0 0 5px 2px lightgray;
+    margin-top: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
 }
 
 .leftItem{
     display: flex;
     justify-content: center;
-    width: 25%;
+    max-width: 50%;
+    max-height: 300px;
+
 }
 
 .itemImg{
-    padding: 10px 10px 10px;
     width: 100%;
-    height: auto;
+    max-height: 100%;
+    padding: 10px 10px 10px;
 }
 
 .midItem{
@@ -27,7 +35,7 @@
 
 .rightItem{
     display: block;
-    width: 25%;
+    width: 30%;
     border-left: 1px solid lightgray;
 }
 
@@ -42,6 +50,7 @@
 .rightItemButtons{
     font-size: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
     height: 50px;  
     display: flex;
     justify-content: space-around;

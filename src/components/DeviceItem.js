@@ -13,8 +13,8 @@ const DeviceItem = observer(({device, currency}) => {
     const navigate = useNavigate();
     return (
         <Col md={3} className='deviceItem'>
-            <div className='img'>
-                <Image width={150} height={150} src={device.image}/>
+            <div className='imgBox'>
+                <Image className='img' src={device.image}/>
             </div>
             <div className='info' onClick={()=>navigate(DEVICE_ROUTE + "/" + device.id)}>
                 <div className='name'>{device.name}</div>
