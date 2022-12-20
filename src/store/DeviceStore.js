@@ -4,9 +4,27 @@ import {RUB, USD} from "../utils/consts";
 export default class DeviceStore {
     constructor() {
         this._types = []
-        this._devices = []
+        this._devices = [{
+            id: 5,
+            name: "Holodos",
+            price: 100,
+            category: 1,
+            description: "ОЧень хороший",
+            image: "https://s0.rbk.ru/v6_top_pics/media/img/7/39/756366331891397.jpg",
+            rub: 141414,
+            quotation: 64
+        }] //Измени
         this._basketPrice = 0
-        this._basket = []
+        this._basket = [{
+            id: 5,
+            name: "Holodos",
+            price: 100,
+            category: 1,
+            description: "ОЧень хороший",
+            image: "https://s0.rbk.ru/v6_top_pics/media/img/7/39/756366331891397.jpg",
+            rub: 141414,
+            quotation: 64
+        }] //Измени
         this._selectedType = {}
         this._like = {}
         this._currency = USD
